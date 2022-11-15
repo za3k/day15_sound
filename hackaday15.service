@@ -1,0 +1,11 @@
+[Unit]
+Description=gunicorn3 for hackaday-15-sound
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/hackaday/day15_sound
+ExecStart=/bin/gunicorn3 -e SCRIPT_NAME=/hackaday/sound --bind 0.0.0.0:8015 app:app
+
+[Install]
+WantedBy=multi-user.target

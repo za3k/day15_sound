@@ -1,0 +1,9 @@
+{% set counter = { 'id': 0} %}
+{% macro getCounter(key) -%}
+  {% if not counter.update({key: counter[key]+1}) %}{{ counter[key] }}{% endif %}
+{%- endmacro %}
+{% macro setCounter(key, val) -%}
+  {% if not counter.update({key: 0}) %}{% endif %}
+{%- endmacro %}
+{% macro getId() -%}{{ getCounter('id') }}{%- endmacro %}
+{% macro resetId() -%}{{ setCounter('id', 0) }}{%- endmacro %}

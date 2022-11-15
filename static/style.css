@@ -1,0 +1,49 @@
+/* -- This specific Hack-A-Day project -- */
+
+.sample {
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+    border: 2px solid;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 5px;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.sample.shiftdown {
+    text-transform: uppercase;
+    background-color: mediumpurple;
+}
+.generated {
+    background-color: lightblue;
+}
+.sample.recording {
+    text-transform: uppercase !IMPORTANT;
+    background-color: red !IMPORTANT;
+}
+.recorded {
+    background-color: lightgreen;
+}
+
+/* -- All Hack-A-Day projects -- */
+.about {
+    white-space: pre-wrap;
+}
+.footer {
+    background-color: rgba(0,0,0,0.2);
+    margin-top: 20px;
+}
+.footer ul {
+    list-style: none;
+    padding-left: 5px;
+}
+
+.navbar-brand-link a {
+    color: #777;
+}
+.navbar-brand-link a:hover {
+    color: #000;
+    text-decoration: none;
+}
