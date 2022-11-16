@@ -20,3 +20,13 @@ Source available on [github](https://github.com/za3k/day15_sound).
 # Credits
 
 - Built-in and generated soundboard sounds due to [jsfxr](https://sfxr.me/) [[source](https://github.com/chr15m/jsfxr)].
+
+# Wishlist
+
+- Make all loops a fixed length, but have the length be adjustable still
+- Have 'delay' update loops in realtime, and rename it to "offset" or something.
+- Fix the samples with a PRNG or such, so they don't change on reload? But have a few presets. Add a preset for "random" and a few other options?
+- Have samples that work well together (ex. piano) and a wider variety.
+- Save and load (samples and tracks)
+- Have sharing links
+- .wav download
