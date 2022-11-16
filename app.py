@@ -12,7 +12,7 @@ load_info({
     "source_url": "https://github.com/za3k/day15_sound",
     "subdir": "/hackaday/sound",
     "description": "sound toy",
-    "instructions": "Click a button or press a keyboard key to play a sound. Hold shift to record. Control-click to re-generate a random sample",
+    "instructions": "Click a button or press a keyboard key to play a sample/track. Hold shift to record both samples and tracks. Control-click samples to replace them with a new random noise.",
     "login": False,
 })
 
