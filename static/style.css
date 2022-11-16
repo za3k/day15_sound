@@ -1,6 +1,6 @@
 /* -- This specific Hack-A-Day project -- */
 
-.sample {
+.button {
     height: 80px;
     width: 80px;
     line-height: 80px;
@@ -25,6 +25,31 @@
 }
 .recorded {
     background-color: lightgreen;
+}
+
+.track {
+    background-color: #77F;
+}
+
+.track.loops {
+    border-color: green;
+    filter: drop-shadow(5px 5px 2px green)
+}
+
+.track.empty {
+    background-color: pink;
+}
+
+.track.recording {
+    background-color: red;
+}
+
+.track.playing {
+    background-color: orange;
+}
+
+.track-settings > * {
+    display: inline-block;
 }
 
 /* -- All Hack-A-Day projects -- */

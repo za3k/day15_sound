@@ -14,6 +14,7 @@
 
 {% block content %}
 <div class="samples">
+    <h3>Samples</h3>
     {% for i in range(5) %}
         <div>
         {% for i in range(5) %}
@@ -23,6 +24,34 @@
     {% endfor %}
 </div>
 
-<div class="loops">
+<div class="tracks">
+    <h3>Tracks</h3>
+    {% for i in range(4) %}
+        <div class="track button" id="track-{{ loop.index }}"></div>
+    {% endfor %}
+    <div class="go button" id="go-1">Go</div>
+</div>
+<div class="tracks">
+    {% for i in range(4) %}
+        <div class="track-settings" id="track-settings-{{ loop.index }}">
+            <span class="setting-label"></span>
+            <div>
+                <label>Delay</label>
+                <input type="range", min="0", max="10000" value="0", class="setting-delay">
+            </div>
+            <div>
+                <label>Length</label>
+                <input type="range", min="0", max="10000" value="0", class="setting-length">
+            </div>
+            <div>
+                <label>Progress</label>
+                <input type="range", min="0", max="10" value="0", class="setting-progress" disabled="disabled">
+            </div>
+            <div>
+                <label>Loop?</label>
+                <input type="checkbox" class="setting-loops">
+            </div>
+        </div>
+    {% endfor %}
 </div>
 {% endblock %}
