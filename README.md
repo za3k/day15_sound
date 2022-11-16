@@ -4,11 +4,18 @@ Hack-A-Day is a project I'm doing in November, where I try to make 30 new projec
 
 This is a sound mixing toy.
 
+Features:
+
+- 25 pre-generated random samples
+- Record you own samples with a mic
+- Keyboard and mouse support. Mobile probably not supported.
+- 4 tracks. Set delay and loop tracks separately
+
 ![Screenshot](screenshot.png)
 
-Demo available [here](https://tilde.za3k.com/hackaday/line).
+Demo available [here](https://tilde.za3k.com/hackaday/sound).
 
-Source available on [github](https://github.com/za3k/day13_line).
+Source available on [github](https://github.com/za3k/day15_sound).
 
 # Credits
 
