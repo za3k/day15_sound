@@ -29,4 +29,5 @@ Source available on [github](https://github.com/za3k/day15_sound).
 - Have samples that work well together (ex. piano) and a wider variety.
 - Save and load (samples and tracks)
 - Have sharing links
+- Visual display of notes in each track, and combined line tracing through all of them.
 - .wav download
